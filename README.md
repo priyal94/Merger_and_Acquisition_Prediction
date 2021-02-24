@@ -1,5 +1,5 @@
 # Merger_and_Acquisition_Prediction
-## Video : https://github.com/priyal94/Merger_and_Acquisition_Prediction/blob/master/Video.mp4
+#### Video : https://github.com/priyal94/Merger_and_Acquisition_Prediction/blob/master/Video.mp4
 ## Problem Statement and Description of Dataset
 Merger and Acquisition is a critical factor in keeping the business ahead, having that in mind, this project aims to predict the merger and acquisition by a company using supervised machine learning methods considering various global factors of the company to support our hypothesis. The dataset consists of data for 10000 companies and 30 features. Each feature further consisted of more than five categories. We proposed three hypothesis which was to build a predictive model through supervised machine learning to classify which companies will be a part of merger and acquisition activity, whether the companies in loss will be acquired or shut down and what are the potential sectors for a company to participate in M&A activity to maximize its profit.
 
