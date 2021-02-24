@@ -35,8 +35,9 @@ After plotting the ROC curve, we observed the micro and macro average area under
 True positives are data point classified as positive by the model that actually are positive (meaning they are correct), and false negatives are data points the model identifies as negative that actually are positive (incorrect). We now wanted to go beyond accuracy, hence, we calculated precision and recall score. We observed Average Precision Area to be 0.69
 The training curve and the model results on completely unobserved data inferred that the model was not overfitting. The problem that we observed in our data was also the high variance of a single estimate, so we now wanted an approach to decrease the variance of that single estimate for higher stability.
 
-### K-modes:
+## Recommendation System
+## Elbow Plot:
 We wanted to see the what all companies are tied in one cluster and how many clusters are there in our data-keeping company name as the target, we chose Kmodes clustering as our data were categorical and kmeans deals with numerical data and if we get the dummy variables of our data we get 296 features and complexity will increase and Kmodes directly deals with categorical data. Even after giving 8 iterations, the cost was becoming constant after 3 clusters formation and thus, we achieved the results that the optimum number of cluster formations will be 3. As a result, we can say if we want to classify a new company to which cluster would it belong, a company could be part of any one of these clusters.
 
-## Recommendation System using 3-NN:
+## 3-NN:
 Furthermore, we wanted to recommend a new company to get the sectors of that company. We decided to solve this problem using content-based recommendation systems that use the K-nearest neighbor’s algorithm that calculates cosine similarity to get the nearest companies for the target company. We chose to predict the top 3 companies based on the cosine distance. We observed that the sector of these recommended top 3 companies has some sectors which were similar and others which were different could be prospective sectors in which the target company could perform Merger and Acquisition
